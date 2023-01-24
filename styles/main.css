@@ -73,17 +73,19 @@ li{
 #user-name{
     font-size: 3em;
     line-height: 1em;
+    text-align: justify;
 }
 
 #bio, a{
     font-weight: 300;
     font-size: large;
+    align-self: center;
 }
 
 #profile-pic{
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     object-fit: cover;
 }
 
@@ -93,8 +95,10 @@ li{
 
 #socials--list{
     display: flex;
-    justify-content: flex-start;
-    column-gap: 3em;
+    justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em;
+    column-gap: 5em;
     flex-wrap: wrap;
     font-size: larger;
 }
@@ -127,7 +131,7 @@ li{
 #qualifications--list{
     justify-content: flex-start;
     flex-wrap: wrap;
-    list-style: none;
+    list-style:square;
 }
 
 .card--project{
@@ -201,7 +205,7 @@ li{
     list-style: none;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     #wrapper--hero{
         flex-direction: column;
         gap: 1 em;
