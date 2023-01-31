@@ -2,9 +2,9 @@
 :root{
     --mainTextColor-light:#000;
     --secondaryTextColor-light:rgb(51 51 51);
-    --mainLinkColor-light:#0da2b8;
+    --mainLinkColor-light:#0508b9;
     --mainBorderColor-light:rgb(218, 218, 218);
-    --mainBgColor-light:rgb(249, 250,251);
+    --mainBgColor-light:rgb(182, 206, 229);
 
     --mainTextColor-dark:#fff;
     --secondaryTextColor-dark:#adb0b1;
@@ -24,21 +24,21 @@
     font-family:'Readex Pro';
     line-height: 1.5em;
     box-sizing: border-box;
-    color: var(--mainTextColor-dark);
+    color: var(--mainTextColor-light);
 }
 
 body{
-    background-color: var(--mainBgColor-dark);
+    background-color: var(--mainBgColor-light);
 }
 
 p, span, li{
-    color: var(--secondaryTextColor-dark);
+    color: var(--secondaryTextColor-light);
     font-size: 1em;
 }
 
 a{
     text-decoration: none;
-    color: var(--mainLinkColor-dark);
+    color: var(--mainLinkColor-light);
     font-size: 500;
 }
 
@@ -90,12 +90,12 @@ li{
 }
 
 #email{
-    color: var(--mainTextColor-dark);
+    color: var(--mainTextColor-light);
 }
 
 #socials--list{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     padding-left: 3em;
     padding-right: 3em;
     column-gap: 5em;
@@ -105,7 +105,7 @@ li{
 
 #socials--list a{
     font-size: 0.9em;
-    color: var(--mainLinkColor-dark);
+    color: var(--mainLinkColor-light);
     transition: 0.3s;
 }
 
@@ -223,6 +223,6 @@ li{
 
     .card--work-history{
         border-left: none;
-        padding-left: 0;
+        padding: 1;
     }
 }
