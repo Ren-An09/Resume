@@ -205,6 +205,9 @@ li{
     list-style: none;
 }
 
+.card--project p:nth-child(1){
+    font-weight: bold;
+}
 
 .box-1, .box-2{
     width: 560px;
