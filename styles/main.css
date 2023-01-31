@@ -140,6 +140,9 @@ li{
     padding-left: 1em;
 }
 
+.card--project p:nth-child(1){
+    font-weight: bold;
+}
 #wrapper--project a:hover{
     color: rgb(45, 231, 7);
 }
