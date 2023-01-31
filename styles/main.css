@@ -54,6 +54,7 @@ li{
 .section--page{
     padding-top: 1em;
     padding-bottom: 1em;
+    align-content: center;
 }
 
 #wrapper--hero{
@@ -143,6 +144,7 @@ li{
 .card--project p:nth-child(1){
     font-weight: bold;
 }
+
 #wrapper--project a:hover{
     color: rgb(45, 231, 7);
 }
@@ -222,10 +224,12 @@ li{
 
 .box-container{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
     overflow: hidden;
     padding: 0.5em 0.5em;
+    align-self: center;
+    
     gap: 1em;
 
 }
@@ -285,6 +289,7 @@ li{
         height: auto;
         align-items: center;
         background-size: auto;
+        align-self: center
        
     }
     .box-1, .box-2{
