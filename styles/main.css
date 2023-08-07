@@ -253,7 +253,7 @@ li{
 }
 
 .box-3{
-    background-image: url("assets/images/PP.png");
+    background-image: url("./assets/images/PP.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 350px;
