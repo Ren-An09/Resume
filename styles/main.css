@@ -262,7 +262,7 @@ li{
 }
 
 .box-4{
-    background-image: url("../assets/images/BLS.jpg");
+    background-image: url("assets/images/BLS.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 350px;
